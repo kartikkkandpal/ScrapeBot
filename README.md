@@ -65,7 +65,7 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 1. Clone the repository and navigate into the project folder:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kartikkkandpal/ScrapeBot.git
    cd ScrapeBot
    ```
 
@@ -81,7 +81,7 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 4. Create a `.env` file with your Gemini API key:
    ```bash
-   echo "GEMINI_API_KEY=your_google_gemini_api_key" > .env
+   GEMINI_API_KEY="your_google_gemini_api_key"
    ```
 5. Start the chatbot:
    ```bash
