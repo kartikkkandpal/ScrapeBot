@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.2",
+    "openai": "^5.20.1",
+    "readline-sync": "^1.4.10"
+  }
+}
