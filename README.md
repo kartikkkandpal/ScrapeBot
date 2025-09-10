@@ -1,8 +1,17 @@
-# AI-Powered WebScrapping Chatbot (Node.js Version)  
+# 🤖 AI-Powered Web Scraping Chatbot
 
-⚡ **Note:** The original design used the OpenAI ChatGPT API, which is a paid service. To make this project fully accessible and free to use, we have integrated **Google’s Gemini API** — a powerful generative AI that works similarly to ChatGPT, providing accurate and contextual responses based on website content.  
+> **⚡ Note:** The original design used the OpenAI ChatGPT API, which is a paid service. To make this project fully accessible and free to use, we have integrated **Google's Gemini API** — a powerful generative AI that works similarly to ChatGPT, providing accurate and contextual responses based on website content.
 
-This project demonstrates how to build a **console-based AI chatbot** that can interact with any website, extract key information, and answer user queries intelligently.  
+This project demonstrates how to build a **console-based AI chatbot** that can interact with any website, extract key information, and answer user queries intelligently.
+
+## 📋 Table of Contents
+
+- [Features](#-features)
+- [Steps Followed](#-steps-followed)
+- [Run Instructions](#-run-instructions)
+- [Important Notes](#-important-notes)
+- [Technologies Used](#️-technologies-used)
+- [Workflow Diagram](#-workflow-diagram)
 
 ## 🌟 Features
 
@@ -54,33 +63,51 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 ## 💻 Run Instructions
 
-1. Clone the repository and navigate into the project folder.  
-2. Install dependencies:  
+1. Clone the repository and navigate into the project folder:
+   ```bash
+   git clone <repository-url>
+   cd ScrapeBot
+   ```
+
+2. Install dependencies:
+   ```bash
    npm install
-3. Create a .env file with your Gemini API key:
-   GEMINI_API_KEY=your_google_gemini_api_key
-4. Start the chatbot:
+   ```
+
+3. Get your Google Gemini API key:
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Create a new API key
+   - Copy the generated key
+
+4. Create a `.env` file with your Gemini API key:
+   ```bash
+   echo "GEMINI_API_KEY=your_google_gemini_api_key" > .env
+   ```
+5. Start the chatbot:
+   ```bash
    node index.js
-5. Enter website URL and start chatting! (Only Websites that allow Scrapping other wise we have to use puppeteer or Crawlee Something.)
+   ```
+6. Enter website URL and start chatting! (Only websites that allow scraping, otherwise we have to use Puppeteer or Crawlee.)
 
-## 📝 Notes
+## 📝 Important Notes
 
-1. Designed for educational and demonstration purposes.
-2. Works best with websites that allow scraping; some sites may have protections that require more advanced techniques like headless browsers.
-3. Google Gemini API free tier is used, making this project fully accessible without paid subscriptions.
+- **Educational Purpose**: Designed for educational and demonstration purposes
+- **Website Compatibility**: Works best with websites that allow scraping; some sites may have protections that require more advanced techniques like headless browsers
+- **Free API**: Google Gemini API free tier is used, making this project fully accessible without paid subscriptions
+- **Rate Limits**: Be mindful of API rate limits when testing extensively
 
-## Work Flow Diagram 
+## 🔄 Workflow Diagram
 
-User enters URL
-      │
-      ▼
-  Axios fetches HTML
-      │
-      ▼
-Cheerio parses content
-      │
-      ▼
- Google Gemini AI
-      │
-      ▼
-Bot answers or summarizes
+```mermaid
+flowchart TD
+    A[User enters URL] --> B[Axios fetches HTML]
+    B --> C[Cheerio parses content]
+    C --> D[Google Gemini AI]
+    D --> E[Bot answers or summarizes]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+```
