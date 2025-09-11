@@ -1,7 +1,5 @@
 # 🤖 AI-Powered Web Scraping Chatbot
 
-> **⚡ Note:** The original design used the OpenAI ChatGPT API, which is a paid service. To make this project fully accessible and free to use, we have integrated **Google's Gemini API** — a powerful generative AI that works similarly to ChatGPT, providing accurate and contextual responses based on website content.
-
 This project demonstrates how to build a **console-based AI chatbot** that can interact with any website, extract key information, and answer user queries intelligently.
 
 ## 📋 Table of Contents
