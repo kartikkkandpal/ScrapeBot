@@ -11,6 +11,10 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 - [Technologies Used](#️-technologies-used)
 - [Workflow Diagram](#-workflow-diagram)
 
+## 📺 Demo Video
+
+[![Watch the demo](https://drive.google.com/file/d/1YKxyP4BzLFgV4MCmsDRZebVcffKyF-iy/view?usp=drive_link)](https://drive.google.com/file/d/1YKxyP4BzLFgV4MCmsDRZebVcffKyF-iy/view?usp=drive_link)
+
 ## 🌟 Features
 
 - **Dynamic Website Support**  
