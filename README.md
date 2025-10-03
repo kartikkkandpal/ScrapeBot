@@ -13,7 +13,7 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 ## 📺 Demo Video
 
-**Play online:** - [Demo](https://drive.google.com/file/d/1YKxyP4BzLFgV4MCmsDRZebVcffKyF-iy/view?usp=drive_link) 
+**Watch Demo:** - [Demo Video](https://drive.google.com/file/d/1YKxyP4BzLFgV4MCmsDRZebVcffKyF-iy/view?usp=drive_link) 
 
 ## 🌟 Features
 
