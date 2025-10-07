@@ -4,7 +4,7 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 ## 📋 Table of Contents
 
-- [📺 Demo Video](#demo-video)
+- [📺 Demo Video](#-demo-video)
 - [🌟 Features](#-features)
 - [🚀 Steps Followed](#-steps-followed)
 - [💻 Run Instructions](#-run-instructions)
