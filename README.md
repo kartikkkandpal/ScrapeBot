@@ -4,12 +4,13 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 
 ## 📋 Table of Contents
 
-- [Features](#-features)
-- [Steps Followed](#-steps-followed)
-- [Run Instructions](#-run-instructions)
-- [Important Notes](#-important-notes)
-- [Technologies Used](#️-technologies-used)
-- [Workflow Diagram](#-workflow-diagram)
+- [📺 Demo Video](#demo-video)
+- [🌟 Features](#-features)
+- [🚀 Steps Followed](#-steps-followed)
+- [💻 Run Instructions](#-run-instructions)
+- [📝 Important Notes](#-important-notes)
+- [🛠️ Technologies Used](#-technologies-used)
+- [👤 Author](#-author)
 
 ## 📺 Demo Video
 
@@ -97,3 +98,14 @@ This project demonstrates how to build a **console-based AI chatbot** that can i
 - **Website Compatibility**: Works best with websites that allow scraping; some sites may have protections that require more advanced techniques like headless browsers
 - **Free API**: Google Gemini API free tier is used, making this project fully accessible without paid subscriptions
 - **Rate Limits**: Be mindful of API rate limits when testing extensively
+
+## 🛠️ Technologies Used
+
+- **Node.js** – JavaScript runtime environment for backend logic  
+- **Axios** – For fetching website HTML data  
+- **Cheerio** – For parsing and scraping structured HTML content  
+- **Google Gemini API** – For AI-powered responses and summarization 
+
+## 👤 Author
+
+- [Kartik Kandpal](https://github.com/kartikkkandpal)
